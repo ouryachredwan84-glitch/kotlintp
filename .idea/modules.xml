@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TP7_rep/TP7_rep.iml" filepath="$PROJECT_DIR$/TP7_rep/TP7_rep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP8_rep/TP8_rep.iml" filepath="$PROJECT_DIR$/TP8_rep/TP8_rep.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kotlintp.iml" filepath="$PROJECT_DIR$/.idea/kotlintp.iml" />
     </modules>
   </component>
