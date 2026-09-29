@@ -4,6 +4,7 @@ fun resultats(a:Int,b:Int){
     }else{
         println("${a}/${b} = ${a/b}")
     }
+
     println("${a}+${b} = ${a+b}")
     println("${a}-${b} = ${a-b}")
     println("${a}*${b} = ${a*b}")
