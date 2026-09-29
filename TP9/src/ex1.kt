@@ -1,14 +1,13 @@
 fun resultats(a:Int,b:Int){
-
-    println("${a}+${b} = ${a+b}")
-    println("${a}-${b} = ${a-b}")
-    println("${a}*${b} = ${a*b}")
-
     if(b==0){
         throw Exception("divison par zero impossible")
     }else{
         println("${a}/${b} = ${a/b}")
     }
+    println("${a}+${b} = ${a+b}")
+    println("${a}-${b} = ${a-b}")
+    println("${a}*${b} = ${a*b}")
+
     if(b<a){
         println("${a} supérieur ${b}")
     }else if(b==a){
