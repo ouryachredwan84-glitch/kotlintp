@@ -30,4 +30,5 @@ fun main(){
     thread3.join()
 
     println("tread terminer")
+
 }
