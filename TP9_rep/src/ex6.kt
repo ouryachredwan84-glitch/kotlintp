@@ -17,7 +17,7 @@ class Application{
     }
 }
 fun main(){
-    var app = Application()
+    val app = Application()
     app.initialize()
     app.service()
 }
