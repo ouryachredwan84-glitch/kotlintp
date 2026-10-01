@@ -1,5 +1,6 @@
-fun convertToInt(string: String): Int {
 
+
+fun convertToInt(string: String): Int {
     try {
         val nbr = string.toInt()
         if (nbr < 0) {
@@ -7,11 +8,13 @@ fun convertToInt(string: String): Int {
         }
         return nbr
     } catch (e:Exception) {
-        println("error numberFormat ${e.message}")
+        println(e.message)
         return 0
     }
 }
+
 class NegativeNumberException(message: String): Exception(message)
+
 
 fun main() {
 
@@ -20,14 +23,12 @@ fun main() {
         "0",
         "-10",
         "abc",
-        "12.5",
-        "100"
-    )
+        "12.5", "100")
 
-    for (valeur in valeurs) {
+    for (i in valeurs) {
         try {
-            val resultat = convertToInt(valeur)
-            println("Conversion réussie : $valeur -> $resultat")
+            val resultat = convertToInt(i)
+            println("Conversion réussie : $i -> $resultat")
 
         } catch (e: NegativeNumberException) {
             println("Erreur : ${e.message}")
