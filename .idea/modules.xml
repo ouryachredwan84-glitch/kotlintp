@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TP10_rep/TP10_rep.iml" filepath="$PROJECT_DIR$/TP10_rep/TP10_rep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP11_rep/TP11_rep.iml" filepath="$PROJECT_DIR$/TP11_rep/TP11_rep.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP7_rep/TP7_rep.iml" filepath="$PROJECT_DIR$/TP7_rep/TP7_rep.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP8_rep/TP8_rep.iml" filepath="$PROJECT_DIR$/TP8_rep/TP8_rep.iml" />
       <module fileurl="file://$PROJECT_DIR$/TP9_rep/TP9_rep.iml" filepath="$PROJECT_DIR$/TP9_rep/TP9_rep.iml" />
