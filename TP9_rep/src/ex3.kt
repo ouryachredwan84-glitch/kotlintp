@@ -6,7 +6,7 @@ class Car(var model:String):Runnable{
     override fun run() {
         for (i in 1..20) {
             println(" Thread  $i s")
-            Thread.sleep(1000)
+            Thread.sleep(0)
         }
     }
 
