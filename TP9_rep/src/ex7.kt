@@ -11,17 +11,19 @@ class DatabaseManager{
     }
     fun etat(){
 
-        try{
-            connection.connect()
-        }catch(e:Exception){
-            println("Connection not connected ${e.message}")
+        fun etat() {
+            if (::connection.isInitialized) {
+                connection.connect()
+            } else {
+                println("Connection not initialized")
+            }
         }
     }
 }
 
 fun main(){
     val manager = DatabaseManager()
-    manager.connecter()
+
     manager.etat()
 }
 
