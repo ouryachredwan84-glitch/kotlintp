@@ -13,6 +13,8 @@ fun main(){
     var result = filterList(list){x->
         if (x%2 == 0){
             true
+
+            
         }else false
     }
 
